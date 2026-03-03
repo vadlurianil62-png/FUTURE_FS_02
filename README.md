@@ -1,73 +1,156 @@
-# Welcome to your Lovable project
+FUTURE_FS_02 – Client Lead Management System (Mini CRM)
+📌 Project Information
 
-## Project info
+This project was developed as part of the Full Stack Web Development Internship (Track Code: FS).
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+It is a modern Client Lead Management System (Mini CRM) built using React and Supabase to securely manage and track leads generated from website contact forms.
 
-## How can I edit this code?
+The system includes authentication, lead tracking, status management, dashboard analytics, and a notes system.
 
-There are several ways of editing your application.
+🚀 Features Implemented
+🔐 Admin Authentication
 
-**Use Lovable**
+Email & password login (Supabase Auth)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Secure session handling (JWT-based)
 
-Changes made via Lovable will be committed automatically to this repo.
+Protected dashboard routes
 
-**Use your preferred IDE**
+Row-Level Security (RLS) enabled
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📊 Dashboard Overview
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Total Leads counter
 
-Follow these steps:
+Contacted Leads counter
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Converted Leads counter
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Clean summary cards UI
 
-# Step 3: Install the necessary dependencies.
-npm i
+📋 Lead Management
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Each lead contains:
+
+Name
+
+Email
+
+Phone (optional)
+
+Source (Website / Instagram / LinkedIn / Referral)
+
+Status (New / Contacted / Converted)
+
+Created Date
+
+🎯 Status Management
+
+Update status via dropdown
+
+Color indicators:
+
+🔵 New
+
+🟠 Contacted
+
+🟢 Converted
+
+📝 Notes System
+
+Add multiple notes per lead
+
+Timestamped notes
+
+Stored in relational table
+
+Secure per-user access
+
+🔎 Search & Filter
+
+Search by name or email
+
+Filter by status
+
+Real-time UI updates
+
+📱 Responsive Design
+
+Fully responsive (mobile & desktop)
+
+Professional business dashboard UI
+
+Clean and minimal design
+
+🛠 Technologies Used
+Frontend
+
+Vite
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+Backend / Database
+
+Supabase
+
+PostgreSQL
+
+Supabase Authentication
+
+Row-Level Security (RLS)
+
+SQL Migrations
+
+🗂 Project Structure
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── integrations/
+ ├── lib/
+ └── App.tsx
+
+supabase/
+ └── migrations/
+⚙️ Setup Instructions
+Clone Repository
+git clone https://github.com/vadlurianil62-png/FUTURE_FS_02.git
+cd FUTURE_FS_02
+Install Dependencies
+npm install
+Create .env File
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_public_anon_key
+Run Project
 npm run dev
-```
+🌐 Live Deployment
 
-**Edit a file directly in GitHub**
+👉 https://lead-crm-desk.lovable.app
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🎯 What This Project Demonstrates
 
-**Use GitHub Codespaces**
+Full-stack architecture using Supabase
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Secure authentication system
 
-## What technologies are used for this project?
+CRUD operations
 
-This project is built with:
+Database design & relationships
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Protected routes
 
-## How can I deploy this project?
+Responsive UI development
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Real-world business problem solving
 
-## Can I connect a custom domain to my Lovable project?
+👨‍💻 Author
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Anil Vadluri
+Track Code: FS
+Task: FUTURE_FS_02
