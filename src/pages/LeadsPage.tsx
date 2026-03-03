@@ -1,10 +1,10 @@
 import { DashboardLayout } from '@/components/DashboardLayout';
-import Dashboard from './Dashboard';
+import Leads from './Leads';
 
-const Index = () => (
+const LeadsPage = () => (
   <DashboardLayout>
-    <Dashboard />
+    <Leads />
   </DashboardLayout>
 );
 
-export default Index;
+export default LeadsPage;
