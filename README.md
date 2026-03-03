@@ -1,7 +1,5 @@
 # FUTURE_FS_02 – Client Lead Management System (Mini CRM)
 
-## Tracker Code : FS
-
 ## 📌 Project Information
 
 This project was developed as part of the **Full Stack Web Development Internship (Track Code: FS)**.
@@ -92,3 +90,58 @@ Each lead contains:
 ---
 
 ## 🗂 Project Structure
+
+
+src/
+├── components/
+├── pages/
+├── hooks/
+├── integrations/
+├── lib/
+└── App.tsx
+
+supabase/
+└── migrations/
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### Clone Repository
+
+```bash
+git clone https://github.com/vadlurianil62-png/FUTURE_FS_02.git
+cd FUTURE_FS_02
+Install Dependencies
+npm install
+Create .env File
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_public_anon_key
+Run Project
+npm run dev
+🌐 Live Deployment
+
+👉 https://lead-crm-desk.lovable.app
+
+🎯 What This Project Demonstrates
+
+Full-stack architecture using Supabase
+
+Secure authentication system
+
+CRUD operations
+
+Database design & relationships
+
+Protected routes
+
+Responsive UI development
+
+Real-world business problem solving
+
+👨‍💻 Author
+
+Anil Vadluri
+Track Code: FS
+Task: FUTURE_FS_02
